@@ -13,4 +13,5 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 
-Rails.application.config.assets.precompile += %w( dot_todos/index.bundle.css welcome/index.bundle.css )
+Rails.application.config.assets.precompile += %w( dot_todos/index.bundle.css welcome/index.bundle.css board_game/index.bundle.css questions/index.bundle.css )
+Rails.application.config.assets.precompile += %w( redux_example/index.bundle.css redux_counter/index.bundle.css )
